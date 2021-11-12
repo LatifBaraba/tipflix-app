@@ -1,10 +1,10 @@
-import TvSeries from '../components/home/tvSeries'
+import HomeList from '../components/home/homeList'
 
 const Home = () => {
     return (
         <div className="wrapper">
             <h3>Welcome To TipFLix Application</h3>
-            <TvSeries/>
+            <HomeList/>
         </div>
     )
 }
